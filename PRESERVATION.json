@@ -1,0 +1,1166 @@
+{
+  "published_version": 162,
+  "source_commit": "6273fe4c91de3a8fdd56f7860f599a01be542ab3",
+  "export_date": "2026-11-02",
+  "application_modified": false,
+  "original_files": [
+    {
+      "path": ".gitignore",
+      "sha256": "1529d8f91b1968583499bacfdc0abcfb8e19a605f85a2b3ac72c7a20960ddc19"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "sha256": "30a9d257129a2f2d2e40a4d751bfcd0612c08405df9d5db46db2842e6968b5b7"
+    },
+    {
+      "path": "README.md",
+      "sha256": "2ca301246d52611b420a77fa764e70bf8df5c22ddd123ad24f928e4e71ecdde7"
+    },
+    {
+      "path": "docs/loading-v149.md",
+      "sha256": "566216d73e0127140d91fda9de1d41162a0c79097de5f572bf6e6890cb88dbde"
+    },
+    {
+      "path": "docs/tutorial-v144.md",
+      "sha256": "bbf36b81525f27dbfb01c0d84a6ab9b7a9ae04c2e4fe439894822c2b72ca503e"
+    },
+    {
+      "path": "docs/tutorial-v147-assets.md",
+      "sha256": "aade80fa92614f762d5521b98d99ce2453e2d086dd31694ff7dc619ce36fce56"
+    },
+    {
+      "path": "drizzle/0000_dungeon_rooms.sql",
+      "sha256": "0c80eb8f23d29cb70e7c5c3dcf38ffbb54138bb06a9947357fd6d68942136d65"
+    },
+    {
+      "path": "drizzle/meta/0000_snapshot.json",
+      "sha256": "4bbaadf902e3e3d28ffe5ba699acc15a087fd5134453a9b31cb56f32eb5d2480"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "sha256": "2bd4ee0a2830c81b35e75a4db7c7d42290af71f6c5fd8fdce5432f76cd9380f3"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "b724d8040d87e279f9b612915bd7fe1c6633bfdeede686ce28e79dac94c9aa3f"
+    },
+    {
+      "path": "package.json",
+      "sha256": "f2c22c307d04a1dd4472915eb04afc73443356bd9f055f9afed65e29269253af"
+    },
+    {
+      "path": "public/app-v10.js",
+      "sha256": "a9ba4f0516bc9af8122e147ec44aea2d521f8ae30c0119e9e13997bb7a982e34"
+    },
+    {
+      "path": "public/app-v11.js",
+      "sha256": "b90173cea6f2ce5b51e793ee144e1e76209c823923868f43849f946e64948d29"
+    },
+    {
+      "path": "public/app-v14.js",
+      "sha256": "ef4699650b82a31de900ff37f03522e5f60489f19247262c5b80a9f8cca2dc4a"
+    },
+    {
+      "path": "public/app-v15.js",
+      "sha256": "5eadd86b4aaf71f7f30677d0e8cc961090520267d99ac84df2e3083e8785f786"
+    },
+    {
+      "path": "public/app-v16.js",
+      "sha256": "d78fb79fa62c15f09b4cba67c795f11de5dff73e29b36fde052f8f979423dc1c"
+    },
+    {
+      "path": "public/app-v17.js",
+      "sha256": "03b3d8e688bf079975b793e4bec3e11194e2209023408add1bf2fecc59c2ec6d"
+    },
+    {
+      "path": "public/app-v18.js",
+      "sha256": "4f740a729d325d2d901930c518ef7f0a599343039d2bddd007b18397b161c4fe"
+    },
+    {
+      "path": "public/app-v4.js",
+      "sha256": "93df920473651ba269b8e0cc92e41b2dd09425462a212a0ba15d3654478297f7"
+    },
+    {
+      "path": "public/app-v5.js",
+      "sha256": "7a2b63f11814f296c2a2c685132d7a68ab33e865ca48549742359153b35de6a1"
+    },
+    {
+      "path": "public/app-v6.js",
+      "sha256": "6d332044d44378bd54473239fb763557c53532bd125d5adc30713cece56ba005"
+    },
+    {
+      "path": "public/app-v7.js",
+      "sha256": "5635189726d70e43adf47d6b31b22dbe54630f859507f34b1fea51b7502535b5"
+    },
+    {
+      "path": "public/app-v8.js",
+      "sha256": "a97d44d406062e4fc959f41347919a8647202e17b454cac9e85f61b297d8ff42"
+    },
+    {
+      "path": "public/app-v9.js",
+      "sha256": "72d044f1cec0db4fa732d3e627707e6bc0d9bb1084b6bf0302c36e111ac7df39"
+    },
+    {
+      "path": "public/app.js",
+      "sha256": "a97d44d406062e4fc959f41347919a8647202e17b454cac9e85f61b297d8ff42"
+    },
+    {
+      "path": "public/assets/audio/trapbound-danger-v132.mp3",
+      "sha256": "b11d015da3b097da73353c08ac5a00cbe4e33e2460a5933b78c1004cedf9da02"
+    },
+    {
+      "path": "public/assets/audio/trapbound-danger-v133.mp3",
+      "sha256": "74082c2a5f090eefd42a72333faa0e72aafe64787c0217d0b94b8095ed0d18e8"
+    },
+    {
+      "path": "public/assets/audio/trapbound-duel-v132.mp3",
+      "sha256": "4e01b6ff6fd4d1ecb946c0712ce128d4a36650c89265553eb75a457759af6886"
+    },
+    {
+      "path": "public/assets/audio/trapbound-duel-v133.mp3",
+      "sha256": "993e2c8c75989f7d1b379a91ccaa354beeb51a5be6a4fd05fd5be7e4732bfd00"
+    },
+    {
+      "path": "public/assets/audio/trapbound-duel-v138.mp3",
+      "sha256": "4ac98202f88b41ce77a2e54e51a0b53b58b7a986e531fc07d756d0e006f682e4"
+    },
+    {
+      "path": "public/assets/audio/trapbound-run-v133.mp3",
+      "sha256": "e57de6e522709e4fc912cb025a7d780dafb4d5a3ec0c0d0a0ac49b5f9224e768"
+    },
+    {
+      "path": "public/assets/audio/trapbound-run-v138.mp3",
+      "sha256": "2518ea6f51bde6b232b9445ecf1e40cd7d102c255d715326a001b49baa59fcf1"
+    },
+    {
+      "path": "public/assets/audio/trapbound-theme-v131.mp3",
+      "sha256": "83128c97c4acf02d211b40dfda15bd41ed38ea883bee872ca34161808af82997"
+    },
+    {
+      "path": "public/assets/build-scenes/crystal-7x7.webp",
+      "sha256": "9d640b98459f74ac535115f480a520c54c1f7e45add6d92c23e53fa9c1b8e2e8"
+    },
+    {
+      "path": "public/assets/build-scenes/crystal-reference.webp",
+      "sha256": "61542fd5fcb0e4d0ae40f1e5bd08413aa53d2695853124d11d6537ee3dca81d1"
+    },
+    {
+      "path": "public/assets/build-scenes/overgrown-7x7.webp",
+      "sha256": "2884a64115165c3ee2f5733ddabe271c6f4221e8cefb813ebfc1327f27d00fa6"
+    },
+    {
+      "path": "public/assets/build-scenes/overgrown-reference.webp",
+      "sha256": "93863a2acb768006108069dde7f5bd9b23ab460597f00588a39268eee372c7ef"
+    },
+    {
+      "path": "public/assets/build-scenes/volcanic-7x7.webp",
+      "sha256": "12a751912789404df2c191a50e92a5deb9f8e8e95fee6827e462c7c26c1615d6"
+    },
+    {
+      "path": "public/assets/build-scenes/volcanic-reference.webp",
+      "sha256": "9dc8917fc1344374a78241504c7ba5bd8d43f44c0609334dbd72508e3fc9e818"
+    },
+    {
+      "path": "public/assets/character-atlas.png",
+      "sha256": "26a784997d64c66526f8edbcd71920d0d5ba4aa6b80c78d1ff328f00d2f5f4e6"
+    },
+    {
+      "path": "public/assets/character-atlas.webp",
+      "sha256": "6db95bdf18147f08c8e29ee11aa9dd99f391077a722fa51ddc6b7ecd59544f9f"
+    },
+    {
+      "path": "public/assets/dungeon-master-pixel-v66.png",
+      "sha256": "d3365806dee59964c3a22c3ee8e676e282aed925759f19d2cc828b5adc2999b6"
+    },
+    {
+      "path": "public/assets/dungeon-master.png",
+      "sha256": "7acc642f67611304056347477868776856fa13f1bc38e42f57d83edccd20087a"
+    },
+    {
+      "path": "public/assets/dungeon-master.webp",
+      "sha256": "31838d25c5e8a0fcc484ff79c33bf701f2f70c985dc1a2110e8a2fb6cdd98976"
+    },
+    {
+      "path": "public/assets/dungeon-stone.png",
+      "sha256": "781cfea4e16432903e1c59311926ece52b95217e6ce7b283fa8f471b6dcb1705"
+    },
+    {
+      "path": "public/assets/dungeon-stone.webp",
+      "sha256": "3df8dd6faa077ffa73dab046af55294403581e98d3ad34b3ff498989b45675ea"
+    },
+    {
+      "path": "public/assets/equipment-v141/golem-greatsword.png",
+      "sha256": "089d7927f56f9c44b63ce92115f897c8524b4f1524c0c1891ecdf1a84707081c"
+    },
+    {
+      "path": "public/assets/equipment-v141/tinker-bomb.png",
+      "sha256": "6ac58b8994581c7bcfb01fd6e636652967997e03e73f910039f22d5a2e5c1b10"
+    },
+    {
+      "path": "public/assets/equipment-v141/wisp-shuriken.png",
+      "sha256": "8e4e7b017718315d5f872021ba57524e4982106f80d573a974bf15c1b6fe1a5f"
+    },
+    {
+      "path": "public/assets/equipment-v141/witch-potion.png",
+      "sha256": "430230f818a6746cb7953f20c12d4d7abfbb43a933fb0fae99d79560c0410c54"
+    },
+    {
+      "path": "public/assets/equipment-v63/fox-arrow-clean.webp",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "public/assets/equipment-v63/fox-arrow.webp",
+      "sha256": "71944fd59167bddd9dac38d2fe65b03c85c40075c6891a76b3eb92760b810f22"
+    },
+    {
+      "path": "public/assets/equipment-v63/fox-crossbow.webp",
+      "sha256": "883fa8bf174c8d17cb123082743bc8ecb564183020021fd69d108a39d9d91f0b"
+    },
+    {
+      "path": "public/assets/equipment-v63/fox-dagger.webp",
+      "sha256": "9278bd6ae7036defa6ccb4f93cf4ac0a109c7acb28aaec5f7d9f95656e086deb"
+    },
+    {
+      "path": "public/assets/equipment-v63/fox-hammer.webp",
+      "sha256": "a16dfe535e47377adf7aca3e0c59cba968e156b8883143648a7c5d598dbe2c4e"
+    },
+    {
+      "path": "public/assets/equipment-v63/fox-sandal.webp",
+      "sha256": "77b97f3de812d35bebc17b09ce8fb5cfc4151b8d75eb29bf0c009362f00a0c47"
+    },
+    {
+      "path": "public/assets/equipment-v63/fox-spear.webp",
+      "sha256": "eec0616875af6b3d2e846189c294829ceff4d9dd6ab4bd76c0b5f5af012ce20b"
+    },
+    {
+      "path": "public/assets/equipment-v63/fox-sword.webp",
+      "sha256": "de76916b85cc5c843acbc02a858db292aed20cee6ce2dc5b8ff2287bafd931ab"
+    },
+    {
+      "path": "public/assets/equipment-v63/fox-wand.webp",
+      "sha256": "d8ed20a26281bb8c3b87a8974b0a2236bc6f1f16184911af993af6fc0853c45f"
+    },
+    {
+      "path": "public/assets/equipment-v63/goblin-arrow.webp",
+      "sha256": "3f282ce4df6051de2f774098beaa9ee308beaef020901c17dab772f1974af45a"
+    },
+    {
+      "path": "public/assets/equipment-v63/goblin-crossbow.webp",
+      "sha256": "44de6d15244d348099eb1a731acd87aa1a74da5d2a488766ebc906f64fd8a685"
+    },
+    {
+      "path": "public/assets/equipment-v63/goblin-dagger.webp",
+      "sha256": "7f3211daadfabccb5af7a5c714175ad2543ebf003b1c5a9364d012300d0e448a"
+    },
+    {
+      "path": "public/assets/equipment-v63/goblin-hammer.webp",
+      "sha256": "1026e075299781f1b5a77489ed33fd1bea4db79b504962c15a821365cb620579"
+    },
+    {
+      "path": "public/assets/equipment-v63/goblin-sandal.webp",
+      "sha256": "87c7b85537a97618a16ebdccd41b637e6850072de9fde78b6752909795ef2dbe"
+    },
+    {
+      "path": "public/assets/equipment-v63/goblin-spear.webp",
+      "sha256": "530a69cf739b3a84b9e8138f52e345f0707d0111a19d0aef73de89b2dd6bd45c"
+    },
+    {
+      "path": "public/assets/equipment-v63/goblin-sword.webp",
+      "sha256": "822839385f83f1cdb79afce3ce9842f6cfbde992004389983718048e08e967d1"
+    },
+    {
+      "path": "public/assets/equipment-v63/goblin-wand.webp",
+      "sha256": "052342435b31ad82cd61195115f7c66cec5094b91516bd3c26b0816a11553e5e"
+    },
+    {
+      "path": "public/assets/equipment-v63/golem-arrow.webp",
+      "sha256": "a85a5dc3191002a4bb108ae72560c7cc1a3c629202d9eab917060b762a7e12dd"
+    },
+    {
+      "path": "public/assets/equipment-v63/golem-crossbow.webp",
+      "sha256": "7f5398013f2a87dbe9ed4f9d51f992640373564fc30da87be629e6a512ad57ef"
+    },
+    {
+      "path": "public/assets/equipment-v63/golem-dagger.webp",
+      "sha256": "fa93ab55f2bfe0f7b5fd001fa0893541e31d04cf7ebd7ae02963f133d20cc00c"
+    },
+    {
+      "path": "public/assets/equipment-v63/golem-hammer.webp",
+      "sha256": "3d521fad0f965b139ddf4328dd0d68a58084faaaab9ffb2f6e263938d1b99184"
+    },
+    {
+      "path": "public/assets/equipment-v63/golem-sandal.webp",
+      "sha256": "0b280fd5eb1f9fc42d64252ac5230f2fcf444d2932147d854f024c222806ccc5"
+    },
+    {
+      "path": "public/assets/equipment-v63/golem-spear.webp",
+      "sha256": "b7f4623a66864426e31fc2d17090dc11ebe076a127b52a1bc6e082c44ebd1bff"
+    },
+    {
+      "path": "public/assets/equipment-v63/golem-sword.webp",
+      "sha256": "e46fd07a463d405a217b34340ee1078bcbdbe0e092a7ea08072f3fe9a6848670"
+    },
+    {
+      "path": "public/assets/equipment-v63/golem-wand.webp",
+      "sha256": "a3fea82cec3fd6f0a0c9f1bb1674dc669985d5363b802579cd810db3813b35c5"
+    },
+    {
+      "path": "public/assets/equipment-v63/tinker-arrow.webp",
+      "sha256": "379b7c782041cc21020f08da1bd7a64da53126077e8b1a8979e606ccd8674ee0"
+    },
+    {
+      "path": "public/assets/equipment-v63/tinker-crossbow.webp",
+      "sha256": "20c67d22a166c263405d84667981769424a4f6dc057b4a68bd951551a49efc5b"
+    },
+    {
+      "path": "public/assets/equipment-v63/tinker-dagger.webp",
+      "sha256": "23418b720ed5d75734249711fb87c569434776c5e9c474cd0f7d9b0778b45c01"
+    },
+    {
+      "path": "public/assets/equipment-v63/tinker-hammer.webp",
+      "sha256": "787d8d52b39047e60944f7f32bc3cf5d9588e46efe6587383c2fd95ee375a4e1"
+    },
+    {
+      "path": "public/assets/equipment-v63/tinker-sandal.webp",
+      "sha256": "ef345f452a8548dae0ea29b60e86eabe3a21af42aba5ee4900f5387a526bf0e0"
+    },
+    {
+      "path": "public/assets/equipment-v63/tinker-spear.webp",
+      "sha256": "a8243ea1ecf1b35f2dd3588a3db91ab8334cfb1ec14944882f0c3e1760e4ce65"
+    },
+    {
+      "path": "public/assets/equipment-v63/tinker-sword.webp",
+      "sha256": "09fc835036b3c3d5bfebc5f66632d90da6db50386936496634493824fb6a6db1"
+    },
+    {
+      "path": "public/assets/equipment-v63/tinker-wand.webp",
+      "sha256": "34fd4f1336ded4741f4b4ae11aa45ad3dc7c053f9622f78c749336091dbb2f11"
+    },
+    {
+      "path": "public/assets/equipment-v63/wisp-arrow.webp",
+      "sha256": "ecde7374a5da8d78a579ed4cf68621641b03919ac836ba45906312a9d7e8f53b"
+    },
+    {
+      "path": "public/assets/equipment-v63/wisp-crossbow.webp",
+      "sha256": "eac1bfd972b07fb48da4d3c11194676ddd0d81cc810cd5a08171f2f63874efb6"
+    },
+    {
+      "path": "public/assets/equipment-v63/wisp-dagger.webp",
+      "sha256": "27460743abc3365c11cee2df95601c584bc8324ed3c1754774273168003069e2"
+    },
+    {
+      "path": "public/assets/equipment-v63/wisp-hammer.webp",
+      "sha256": "8d5cdbfd722ade4357ba891a4f121ae62de91183e3aace074369f9a93cc8fbba"
+    },
+    {
+      "path": "public/assets/equipment-v63/wisp-sandal.webp",
+      "sha256": "d3edcd7728d15eaeea9cd2015fd53e489b82a32a7748fea8b47f1979641224dc"
+    },
+    {
+      "path": "public/assets/equipment-v63/wisp-spear.webp",
+      "sha256": "d7372e85a2a5519bc253674823b6bed9cfa0febcf1d9cf073cfe09b6c27c9248"
+    },
+    {
+      "path": "public/assets/equipment-v63/wisp-sword.webp",
+      "sha256": "6af39c199014275c44d2f8f1b2a4acffb09d0b6ac7f4c79da85e2bc9df2e09ac"
+    },
+    {
+      "path": "public/assets/equipment-v63/wisp-wand.webp",
+      "sha256": "385c32d9fd1a54532339cd64f725e6ea798c894438f816a94f274c3fb3d9c304"
+    },
+    {
+      "path": "public/assets/equipment-v63/witch-arrow.webp",
+      "sha256": "ed64a1565158f64cd0320a206b234ea06fb108314bda531a3f106d26bba20ff0"
+    },
+    {
+      "path": "public/assets/equipment-v63/witch-crossbow.webp",
+      "sha256": "654e58042ed3ef89dc6e9c835edcee527a6e72a6efb7dfed31cf2d6de4c5ffb0"
+    },
+    {
+      "path": "public/assets/equipment-v63/witch-dagger.webp",
+      "sha256": "4f38240cec1196201d599f50d8347ed23453e145e02a2bf742110c4c44761c9f"
+    },
+    {
+      "path": "public/assets/equipment-v63/witch-hammer.webp",
+      "sha256": "d789c740fe8fc97ab434e9f9b59f4b845e16ebd25c55875081f3975f43babbe7"
+    },
+    {
+      "path": "public/assets/equipment-v63/witch-sandal.webp",
+      "sha256": "3c14506c036572bfc6ad03d00529ec5c54f0230b663820af7c3d008970e50e23"
+    },
+    {
+      "path": "public/assets/equipment-v63/witch-spear.webp",
+      "sha256": "8f08547300fe93e26b7d6e5e59032b0f52e37f08bc720d8be7e4547d2b469d57"
+    },
+    {
+      "path": "public/assets/equipment-v63/witch-sword.webp",
+      "sha256": "dda856a1ad096b06c2811ad3043706eb7ab1bfdb85d0e7bfb2f7ac43d9d5a625"
+    },
+    {
+      "path": "public/assets/equipment-v63/witch-wand.webp",
+      "sha256": "84a468c4f683c9adbb43c814b3acc97b1f6399747bad38ed4b323aa78ef7ba38"
+    },
+    {
+      "path": "public/assets/equipped-v156/a.webp",
+      "sha256": "75af8b9978e830f175436eaa8e1140281dd06231724c38a7d6577616c08f397b"
+    },
+    {
+      "path": "public/assets/equipped-v156/b.webp",
+      "sha256": "5791f9cff213a278d5fc35327e364e75007403a325588a68ab3d167d91b46ad9"
+    },
+    {
+      "path": "public/assets/floors/crystal-cavern.webp",
+      "sha256": "196751721f17ed805bdc98a83a04310206b0f70d2a88ce63341263cd1cd680bb"
+    },
+    {
+      "path": "public/assets/floors/overgrown-temple.webp",
+      "sha256": "2187bc273bc2d153295f105af683954ca5cbcabf8c6a5caea4f9b20c9ae3c1a5"
+    },
+    {
+      "path": "public/assets/floors/volcanic-ruins.webp",
+      "sha256": "5059c7b473d9558d609f9ba9a9121e19f2cfc1f47d569b0eb66a6dc10c4b9eb3"
+    },
+    {
+      "path": "public/assets/harvest-labyrinth.webp",
+      "sha256": "3b7a82e65814508f6659ee35a032f8d8f01ec83f0c37e5bb9d159b7df48b8bd9"
+    },
+    {
+      "path": "public/assets/hero-fox.png",
+      "sha256": "172c8cadf9d55033baac1f73b84294cef160c476388ac87c54277af89472495e"
+    },
+    {
+      "path": "public/assets/hero-goblin.png",
+      "sha256": "9e8dd04c93ba6bfd429c6b0ca0e1f5e17702b8c1fd20f2833a3bf042ad425d8b"
+    },
+    {
+      "path": "public/assets/hero-golem.png",
+      "sha256": "0afe8d85ee7b5ef2b013f5fd6c0693d4f0a470bc0881f6e453bc41ea142a9d00"
+    },
+    {
+      "path": "public/assets/hero-tinker.png",
+      "sha256": "8e12bc9a920327c49c5a0387ddc6e78d336b9020e147db80a995eb7e832a58e4"
+    },
+    {
+      "path": "public/assets/hero-wisp.png",
+      "sha256": "8c2333add1ce3b5406a5c44976af1763a95f323bff89475968f1a2f11e4a7104"
+    },
+    {
+      "path": "public/assets/hero-witch.png",
+      "sha256": "1463b04b0d1fbe8a9248f23cbcdd726099dc079b029dcb2e81bc6c8e1482a4c1"
+    },
+    {
+      "path": "public/assets/heroes-unarmed.png",
+      "sha256": "a0309b0776f3859e73f373b397b94c740ad1b23245b7ab7b6ae951223628841a"
+    },
+    {
+      "path": "public/assets/heroes-unarmed.webp",
+      "sha256": "91f39874977dc437c43a260f472e2a6aec3560383e587dd889c957bbda51c289"
+    },
+    {
+      "path": "public/assets/heroes-v152/ember.png",
+      "sha256": "bba9dbd45e4dcadcc8f0c58203307ee9fada31f82e53db3fbd041b8f3da23f74"
+    },
+    {
+      "path": "public/assets/heroes-v152/fox.png",
+      "sha256": "5737f542b5f86944ee562b07337535fa01fec11d2ee31b936bcad2fd57b618ea"
+    },
+    {
+      "path": "public/assets/heroes-v152/frost.png",
+      "sha256": "3d64e4e569a9a4992cd68c685e188d8210ce58ed2a5ae76d2171f49d5f747d20"
+    },
+    {
+      "path": "public/assets/heroes-v152/goblin.png",
+      "sha256": "43e6b87985fb289c62c197010ff0ded908725c1320449dc866f6e9098c40b2f2"
+    },
+    {
+      "path": "public/assets/heroes-v152/golem.png",
+      "sha256": "92888e9106e669151818ca7196f59fee1f97e3a9a131678f692b60fa53676adf"
+    },
+    {
+      "path": "public/assets/heroes-v152/tinker.png",
+      "sha256": "c8164e2681c2f0af3159110b7fd34001941aad08f444fac15ec1ad5ff3ecd405"
+    },
+    {
+      "path": "public/assets/heroes-v152/wisp.png",
+      "sha256": "d2ff85a637894c693b1154ce4e6cd1e7a93d8e0cf809c80e79d575b18aac12b7"
+    },
+    {
+      "path": "public/assets/heroes-v152/witch.png",
+      "sha256": "23fab20accde236a881e974b2abb491b56ab2049d5d66b457345db47bccf04cc"
+    },
+    {
+      "path": "public/assets/how-to-play-v65.png",
+      "sha256": "d32f062b799651753e0f99b4da968598160eea0bbfac87683d8906044bb057b5"
+    },
+    {
+      "path": "public/assets/how-to-play-v70.png",
+      "sha256": "7587bc4ff7e23fedc52cec93d460aea4568145ec0805264de656717eace0defc"
+    },
+    {
+      "path": "public/assets/icons-v160/longbow.webp",
+      "sha256": "a912250f6ebeae7062dcbc826a43bbc5afa35f65eb7811cf89bf7bdf984bcfe4"
+    },
+    {
+      "path": "public/assets/icons-v160/sandal.webp",
+      "sha256": "5d5ca5e2f32ee1e2d613276956ad772b36091c1e8c632eb148428fe81499f117"
+    },
+    {
+      "path": "public/assets/landing-sunset-portal-v2.webp",
+      "sha256": "98776ec88b5125326447083c46be5c73193747c582d880f95c3b5eb28cf24199"
+    },
+    {
+      "path": "public/assets/landing-sunset-portal.webp",
+      "sha256": "7a5e6bdfae0a075ced5faeccf4fe9f38e89ff6978b5a59136b97cb0e738c0564"
+    },
+    {
+      "path": "public/assets/maps/volcanic-horizontal.png",
+      "sha256": "b93c513510be884c956afbc4a3fce444eb508d718f0451862e846aa3f44d5e65"
+    },
+    {
+      "path": "public/assets/maps/volcanic-horizontal.webp",
+      "sha256": "737cbbd612d220f9bc3a04c2b9df5090fca205073ca76bb57ae65b5c843e308c"
+    },
+    {
+      "path": "public/assets/maps/volcanic-vertical.png",
+      "sha256": "25dc871a3539408d837189c58337ba53163495dca48f08835dbb5eeaeea12db1"
+    },
+    {
+      "path": "public/assets/maps/volcanic-vertical.webp",
+      "sha256": "c736c23d783f21c98d02ee44bc75ea3aca922f9d813a9db8a505cda86e03b4a7"
+    },
+    {
+      "path": "public/assets/monster-atlas-v2.png",
+      "sha256": "4bea10700b4405488ef8e0b194b7d5126a915227b494529c377ef42c50b31359"
+    },
+    {
+      "path": "public/assets/monster-atlas.webp",
+      "sha256": "ea722be1c969953b5d4201ff872a2e0b711944ce805e09d9bd11ab90af9178a7"
+    },
+    {
+      "path": "public/assets/monster-sprites-v76.png",
+      "sha256": "1c4b21ce8fdff8cc0b937d753beec356d29331e4986fc47ab9425415cff6311c"
+    },
+    {
+      "path": "public/assets/monster-sprites-v76.webp",
+      "sha256": "111da33036d266e73b3327c832e5fa05246fd738ded74c3cb17bc950fc0c981d"
+    },
+    {
+      "path": "public/assets/monster-sprites.png",
+      "sha256": "a753df216a43237da3ecdc3b367368317abb995167e1d28d4e704df49fd0bba2"
+    },
+    {
+      "path": "public/assets/monster-sprites.webp",
+      "sha256": "22aef0a69864faf5c19f65ea1abb8505f4b01445cb0c772c862023ecfa5c414d"
+    },
+    {
+      "path": "public/assets/monsters/crystal-slime.webp",
+      "sha256": "5680c5e065acd9feade2204ee7abd8b2360fbd50a54e6226f882ea8778906022"
+    },
+    {
+      "path": "public/assets/monsters/crystal-wraith.webp",
+      "sha256": "878095d36c21a01b3b65c702c1c651303b4534e034983aa43425556171bad55b"
+    },
+    {
+      "path": "public/assets/monsters/ember-imp.webp",
+      "sha256": "a4f4144a0e9fe52d6a33b9363acc08b6e2fa53cf86f98f2affa372b8d1652614"
+    },
+    {
+      "path": "public/assets/monsters/leaf-sprite.webp",
+      "sha256": "9bc307bf393938c61ba8b6f4565a55d2056336815b6aecdddc5115e6f5e71483"
+    },
+    {
+      "path": "public/assets/monsters/magma-golem.webp",
+      "sha256": "e3b52bf0708688ca67ea53b8eaad2a3442ca01e6c942c40c91efd77befbf405d"
+    },
+    {
+      "path": "public/assets/monsters/mushroom-brute.webp",
+      "sha256": "6e184867040cad78fd669adac727c0034005d82cf12b403ea66b7dcbc005b18e"
+    },
+    {
+      "path": "public/assets/moss-crypt.webp",
+      "sha256": "de9a8927e942eb91656faeabe44ea120fabd6ed823ab62339e5c93c380b7ba1c"
+    },
+    {
+      "path": "public/assets/optimized-v149/build-scenes_crystal-7x7.webp.webp",
+      "sha256": "c9bee0812e8292bca4dc5c4bd082b5b7103ee8cd255e05bb80ce19acb034a227"
+    },
+    {
+      "path": "public/assets/optimized-v149/build-scenes_overgrown-7x7.webp.webp",
+      "sha256": "6cebaf7a8f683b4df2e1487936c77549bfe3fc69f74c85c8b4061e30f87792fb"
+    },
+    {
+      "path": "public/assets/optimized-v149/build-scenes_volcanic-7x7.webp.webp",
+      "sha256": "5476686a707be3676ad2577647a1b3795570f5758d22d22a51e8eed02a9790fb"
+    },
+    {
+      "path": "public/assets/optimized-v149/character-atlas.webp.webp",
+      "sha256": "01d42c3b4e76e39a1a41f0d10920e3a6e390dbcb035bfaa2cfbd345f7ebf5061"
+    },
+    {
+      "path": "public/assets/optimized-v149/dungeon-master-pixel-v66.png.webp",
+      "sha256": "4b60fca504dd3955602793e1fb2d8ab922bf9f22948c1a4be1748b000dfbc124"
+    },
+    {
+      "path": "public/assets/optimized-v149/dungeon-stone.webp.webp",
+      "sha256": "74b081a74dc8db8322f307919097fcb2e9530f803a46a743c219b38b9467af9b"
+    },
+    {
+      "path": "public/assets/optimized-v149/equipment-v141_golem-greatsword.png.webp",
+      "sha256": "a18ff0e0dc82c0ef318afa9dd6bc9b2a264c0d1b63ec95fef9ba2c76f1028243"
+    },
+    {
+      "path": "public/assets/optimized-v149/equipment-v141_tinker-bomb.png.webp",
+      "sha256": "f8b1d65df0c92e41abd459d64471b87d9774c67db4086cb8737568a364c30145"
+    },
+    {
+      "path": "public/assets/optimized-v149/equipment-v141_wisp-shuriken.png.webp",
+      "sha256": "7c49719253842c13c87c0680bb5381e6a0b2fc1f7c26b1cad362d2b01c0175d3"
+    },
+    {
+      "path": "public/assets/optimized-v149/equipment-v141_witch-potion.png.webp",
+      "sha256": "c39127ce39fb9a1a280cd65c73acefc8ec85a07c064654469fa84924c6ec7af0"
+    },
+    {
+      "path": "public/assets/optimized-v149/heroes-unarmed.webp.webp",
+      "sha256": "458db36ea3e71643a990d16cfb27b8a405bcf8005a75ffe716ff2df53d969d1a"
+    },
+    {
+      "path": "public/assets/optimized-v149/heroes-v152_ember.png.webp",
+      "sha256": "be3280ab12b26394083a485393f43f1151aabfee7700c3eb3e4bea87ea7611b1"
+    },
+    {
+      "path": "public/assets/optimized-v149/heroes-v152_fox.png.webp",
+      "sha256": "d78bbe72fc37a53ac23d71a7cae682087d1772b57eb5628d9c5a35e50f01959a"
+    },
+    {
+      "path": "public/assets/optimized-v149/heroes-v152_frost.png.webp",
+      "sha256": "7432a6e9e46c5d9c61b11955f0d97b9e91ee3b0b4238b8d9a64c612bd3193ae0"
+    },
+    {
+      "path": "public/assets/optimized-v149/heroes-v152_goblin.png.webp",
+      "sha256": "e6d1666b243bf669a7322fa82bce8372b4dca34db06a15ef82ffe7d7d6599308"
+    },
+    {
+      "path": "public/assets/optimized-v149/heroes-v152_golem.png.webp",
+      "sha256": "9cdb9784d22c8eb219b8bb5ee025ad34775a5648377f43c99f8b52be287f9657"
+    },
+    {
+      "path": "public/assets/optimized-v149/heroes-v152_tinker.png.webp",
+      "sha256": "71538d8c4e86f1686209eac05e7aee3f10ef4e4016a6e52c5693283534f48922"
+    },
+    {
+      "path": "public/assets/optimized-v149/heroes-v152_wisp.png.webp",
+      "sha256": "373420e54b80111d886ff4f2f27dc824dd03e7b2ecdd52991f8dcb74e5af7622"
+    },
+    {
+      "path": "public/assets/optimized-v149/heroes-v152_witch.png.webp",
+      "sha256": "98dff155219e80645dd03144ca1a9715d2e17c5e7eb2f2d763dfa99adc007877"
+    },
+    {
+      "path": "public/assets/optimized-v149/how-to-play-v65.png.webp",
+      "sha256": "22d2ad05956307e072537c384bf5fa2342ef70300f842e42ac4f6ef4f82a1f8d"
+    },
+    {
+      "path": "public/assets/optimized-v149/how-to-play-v70.png.webp",
+      "sha256": "b06ee42b81af9539acac3b9bb491d4fd997669b0b7a58648448f1c931842a710"
+    },
+    {
+      "path": "public/assets/optimized-v149/landing-sunset-portal-v2.webp.webp",
+      "sha256": "930fae9b24f9d93b6f573a9f5e0e84991822bc3bda76e2e8a10fab61185ff598"
+    },
+    {
+      "path": "public/assets/optimized-v149/landing-sunset-portal.webp.webp",
+      "sha256": "c3756906acc2753aca44bd849db6712e3f0b71b7b570ade710d9820ab3cb56b2"
+    },
+    {
+      "path": "public/assets/optimized-v149/maps_volcanic-horizontal.png.webp",
+      "sha256": "63794cb349db4c3d18d359c9dc8ef742d6eed5b6c5ae399106b494014980efd1"
+    },
+    {
+      "path": "public/assets/optimized-v149/maps_volcanic-horizontal.webp.webp",
+      "sha256": "304a1c4f33850b6e585b9b29e5a47b56d6353c75d5e3f04194abc1c817ffd039"
+    },
+    {
+      "path": "public/assets/optimized-v149/maps_volcanic-vertical.png.webp",
+      "sha256": "3f6c62de033bc906a89368973adbae0b897d07ff816c49203d46681184acfba6"
+    },
+    {
+      "path": "public/assets/optimized-v149/maps_volcanic-vertical.webp.webp",
+      "sha256": "23c94ed9b745b5b02d3aa67171d26723989de922b1269a7445c2997aa7e03fe3"
+    },
+    {
+      "path": "public/assets/optimized-v149/monster-atlas-v2.png.webp",
+      "sha256": "d4c6d9e1de845065cab952ff03d7a7c685d54a5c59380a141959d154de4eb1b5"
+    },
+    {
+      "path": "public/assets/optimized-v149/monster-sprites-v76.png.webp",
+      "sha256": "375cbbc2cefa176b7f1489e1d8d4ca3d618a439651ca21b0ac937093f66b94e0"
+    },
+    {
+      "path": "public/assets/optimized-v149/monster-sprites.webp.webp",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "public/assets/optimized-v149/monsters_crystal-slime.webp.webp",
+      "sha256": "4da9786a2d104c21ea33df1f5ec3afcb04b8974f0de19d0152f6ad123c3c7801"
+    },
+    {
+      "path": "public/assets/optimized-v149/monsters_crystal-wraith.webp.webp",
+      "sha256": "8dcd5afaee8f0dd50bef2acc320a42212938fb74eb1dfc7d680fce0593f6b877"
+    },
+    {
+      "path": "public/assets/optimized-v149/monsters_ember-imp.webp.webp",
+      "sha256": "eae67eec20bff6280d870697fd2059e0c10aa95d6e4dc44b3ed1d15cd2e998cd"
+    },
+    {
+      "path": "public/assets/optimized-v149/monsters_leaf-sprite.webp.webp",
+      "sha256": "b0c579d9f028e5870a580216ce5fa28769f7a3848b15ccec05ec2abf119933e7"
+    },
+    {
+      "path": "public/assets/optimized-v149/monsters_magma-golem.webp.webp",
+      "sha256": "93fbbb24b0d6d7e002319f795881fb695a9e5e78b47e67a4f044440cbffe2f66"
+    },
+    {
+      "path": "public/assets/optimized-v149/monsters_mushroom-brute.webp.webp",
+      "sha256": "33d7fa6e864ad9a0c9555f4053cf6cd47ffb3d83c9d1b9a4d2fd9e63f52b0a41"
+    },
+    {
+      "path": "public/assets/optimized-v149/trapbound-title.png.webp",
+      "sha256": "79d1c303daed97d67491a6560f8f48f641606fffe0fa2bfb509a6a24e0aeb2d7"
+    },
+    {
+      "path": "public/assets/optimized-v149/traps_rune-spike-pressure-plate.png.webp",
+      "sha256": "0713072dbf6ff8d9f6a349a042cf82ea4b26ed9b5deafc669a68a4883c8d89d2"
+    },
+    {
+      "path": "public/assets/optimized-v149/tutorial-v144_chamber.webp.webp",
+      "sha256": "4b518dda1d6b9fece217ec0893ce1b92e869beca80456eb25bc81d76fbc57894"
+    },
+    {
+      "path": "public/assets/optimized-v149/tutorial-v144_warden.webp.webp",
+      "sha256": "606c72a1c69ff7597b25dc4ec2b67ee319f2aaddcd12baf993daa847dbd3ec40"
+    },
+    {
+      "path": "public/assets/optimized-v149/tutorial-v145_reference.png.webp",
+      "sha256": "2a9a72ab4a9725fbe145a77429a2e59af7167af388505b20a655cb573ab075ee"
+    },
+    {
+      "path": "public/assets/optimized-v149/tutorial-v147_heroes.webp.webp",
+      "sha256": "d8c31e8765f966d22322df4b22e7d501f4124c894ca31251a206248f042a39a0"
+    },
+    {
+      "path": "public/assets/optimized-v149/tutorial-v147_warden.webp.webp",
+      "sha256": "dc1dbdb5c1dd72d67802a067091caf3b1fd6fb345c4b8d453116765f4557593c"
+    },
+    {
+      "path": "public/assets/portraits-v153/a.webp",
+      "sha256": "71fd6e7e9b57905f499957c682802fc91b58c1240b24b2e43cbf92e424830125"
+    },
+    {
+      "path": "public/assets/portraits-v153/b.webp",
+      "sha256": "97fda047bb43eed2dc86ea0ea4b58f00ae2e8b94bda4a7511b1bd868b01fce64"
+    },
+    {
+      "path": "public/assets/ruined-city-bg.webp",
+      "sha256": "f0c60082717ec7c8c35c57adbab20cda0fee9da71a474cc078ac4e0f91d7b2bd"
+    },
+    {
+      "path": "public/assets/ruined-floor.svg",
+      "sha256": "f47895543901127f279cc065cd022f5f35b9085a9f617850099474222def5603"
+    },
+    {
+      "path": "public/assets/run-crystal.svg",
+      "sha256": "a6e466beee23a3815684cb2347ed872fd55beaa5d834550455afeb5753fd3684"
+    },
+    {
+      "path": "public/assets/run-overgrown.svg",
+      "sha256": "75271371c0d8d73e920f0bbd029c75c1e775371f898f1512a892a6790903955d"
+    },
+    {
+      "path": "public/assets/run-stone.svg",
+      "sha256": "b53c5e7840a12f1ffc8abf9b25339f79ffb05d5f1e0b329b5d16432a88489873"
+    },
+    {
+      "path": "public/assets/run-volcanic.svg",
+      "sha256": "f1d8070e909068ee94a01141d9ace55aaee13ca39007012b1769228f68eca6ef"
+    },
+    {
+      "path": "public/assets/trapbound-title.png",
+      "sha256": "eabccef13f57701faed4a2e9a828ba9468e47f3754ef17bafb54b6ffbc298c9f"
+    },
+    {
+      "path": "public/assets/traps/rune-spike-pressure-plate.png",
+      "sha256": "f831f37173e5a473152b9d6e383a486d52eef985c4e0756a74e16d9358941b02"
+    },
+    {
+      "path": "public/assets/tutorial-v144/chamber.webp",
+      "sha256": "1fd5e02fe3cc235eea969497032926984ecef32fae21f9e4c6c54938b75b10da"
+    },
+    {
+      "path": "public/assets/tutorial-v144/warden.webp",
+      "sha256": "983eaf51d2194a797f6752a75888caa40088b36a3a2749b69c63fea6e06c5e83"
+    },
+    {
+      "path": "public/assets/tutorial-v145/reference.png",
+      "sha256": "fbec837b872482ecba5f3ea972030de5c6cdf7d9085427bb02d80e355c2c38df"
+    },
+    {
+      "path": "public/assets/tutorial-v147/heroes.webp",
+      "sha256": "ddbcd49fde27c1e64f0b1f07494c5032e80f826faa8f7b2e68f520ed621d50fa"
+    },
+    {
+      "path": "public/assets/tutorial-v147/warden.webp",
+      "sha256": "678d3713849f68feec97d9dea6a4c79c02f5331554ec0f4b13b13311b283bfa2"
+    },
+    {
+      "path": "public/assets/tutorial-v149/warden-alert.webp",
+      "sha256": "218566b9e3254aa8d1ebb8a420aefa4beda05104fac01c1f83c33b6ef309cd38"
+    },
+    {
+      "path": "public/assets/tutorial-v149/warden-ready.webp",
+      "sha256": "26dcb52874619a042bff59e9e9a1c74f9e1c7caef3f3028a346fbc96b33e9fbf"
+    },
+    {
+      "path": "public/assets/walls/crystal-wall-tile.webp",
+      "sha256": "6f3056f72760c142df0d5ff1d20ce39e0cbfe33087d34cbb8a4faf631860b91d"
+    },
+    {
+      "path": "public/assets/walls/overgrown-wall-tile.webp",
+      "sha256": "37f8dd9ff7cb36ea86958be592a3bd274a1b10e6df28e8ed9fa69a1585928f12"
+    },
+    {
+      "path": "public/assets/walls/volcanic-wall-tile.webp",
+      "sha256": "fb6864593b6de082edabd4073b3bec48c4642d65e04dc30c8ca41aacc92013d4"
+    },
+    {
+      "path": "public/assets/weapons-equipped.png",
+      "sha256": "d446bf51f3efd5a521bfb66bdad3b36e79417aeb0d7ba8c8d8d81c9f5b6edf13"
+    },
+    {
+      "path": "public/assets/weapons-equipped.webp",
+      "sha256": "9fafdbfdd6b2f91cf6960d5bea883addf8696aa97c13942d3e0dd0c18ea854e0"
+    },
+    {
+      "path": "public/audio-v131.js",
+      "sha256": "f8833e17458a7c2edeb0fa0757398e3b5dd3b772aefcdead9884e50e09872325"
+    },
+    {
+      "path": "public/dungeon-3d.js",
+      "sha256": "7b1dcaedc394b7fb91da5805868ee487d1033a850d50978e895065da78098393"
+    },
+    {
+      "path": "public/hero-poses-v130.css",
+      "sha256": "b2864a1f0c28777d567b76477b6e35ed469291454b5d49ac6bbedbb1b1ec952c"
+    },
+    {
+      "path": "public/index.html",
+      "sha256": "38c835efc0ed2b0a661177342cbb13c356035a11aaef05b9128bf9e402ce6dc6"
+    },
+    {
+      "path": "public/peerjs.min.js",
+      "sha256": "7604d8c31bec4f134b0d15c2d80b1d095ea18af005354f439f14291fcd7b4168"
+    },
+    {
+      "path": "public/peerjs.v4.min.js",
+      "sha256": "7604d8c31bec4f134b0d15c2d80b1d095ea18af005354f439f14291fcd7b4168"
+    },
+    {
+      "path": "public/peerjs.v5.min.js",
+      "sha256": "7604d8c31bec4f134b0d15c2d80b1d095ea18af005354f439f14291fcd7b4168"
+    },
+    {
+      "path": "public/peerjs.v6.min.js",
+      "sha256": "7604d8c31bec4f134b0d15c2d80b1d095ea18af005354f439f14291fcd7b4168"
+    },
+    {
+      "path": "public/peerjs.v7.min.js",
+      "sha256": "7604d8c31bec4f134b0d15c2d80b1d095ea18af005354f439f14291fcd7b4168"
+    },
+    {
+      "path": "public/peerjs.v8.min.js",
+      "sha256": "7604d8c31bec4f134b0d15c2d80b1d095ea18af005354f439f14291fcd7b4168"
+    },
+    {
+      "path": "public/peerjs.v9.min.js",
+      "sha256": "7604d8c31bec4f134b0d15c2d80b1d095ea18af005354f439f14291fcd7b4168"
+    },
+    {
+      "path": "public/style-v47.css",
+      "sha256": "4f79adb780ea4f1c5a7f97173be9ab632e94bfc6f6f0b930ffd4ec62c3428e68"
+    },
+    {
+      "path": "public/style-v48.css",
+      "sha256": "44956c804287d461b79b3351adf2a4c153f5d0376fa71a1bf8c1173abe7dbb01"
+    },
+    {
+      "path": "public/style-v49.css",
+      "sha256": "c4365d865e0e88e6e1e74886c75534268f36afe8921df64fb0b463fae5fc3d41"
+    },
+    {
+      "path": "public/style-v50.css",
+      "sha256": "08211a25879b6586c247485647216a5da772ec4268786e880562b65e0a4e96f3"
+    },
+    {
+      "path": "public/style-v51.css",
+      "sha256": "d05f4d9e5dfc5f24183743224b448b9c4cc51ac2713a3ba09743193f5cfb0a69"
+    },
+    {
+      "path": "public/style.css",
+      "sha256": "b2f148aba32f50b995a252d6b2db4f1078b61a4ee4e80e57bf660738678c6669"
+    },
+    {
+      "path": "public/version-sync.js",
+      "sha256": "8796dd96d69f8a51896547e1ab3c6c7363fad5173309fd4b8291d56c5ca3d5d6"
+    },
+    {
+      "path": "scripts/build-worker.mjs",
+      "sha256": "e2bc296a5e7fdc8f0f5c6108d0e4d4fee5adc6d4728f7e92044a589fb19c7df4"
+    },
+    {
+      "path": "scripts/class-weapon-art-v141.md",
+      "sha256": "2a1a34a2ea11f22c31d8ed769043cf27e2041a41a9fa25012371ab3bf479f1a0"
+    },
+    {
+      "path": "scripts/clean-equipment.py",
+      "sha256": "3934eebc25833422260d504583c17f82f60013a883c21e6b2b219ecac24b2d8e"
+    },
+    {
+      "path": "scripts/compose-combat132.py",
+      "sha256": "46686eca526aa1ab20736fee2e3fcbaf95d98dd780529ba2c462e84ef75f371f"
+    },
+    {
+      "path": "scripts/compose-music131.py",
+      "sha256": "29eef6012e72fa25c2055cb3c70ac4e3697be40a1ac62a824125cfaf309617d6"
+    },
+    {
+      "path": "scripts/compose-score133.py",
+      "sha256": "f28711b36a541717e41fc356071b6d5432e201022788cf6f55867dc9c5b877cb"
+    },
+    {
+      "path": "scripts/compose-score138.py",
+      "sha256": "c3cae7682c0935294c9bb396efacd012ba08549fbbff30a10e667628ecbf3b74"
+    },
+    {
+      "path": "scripts/frame-hero-poses.py",
+      "sha256": "7f2a1620fe99721464fbdfe3a46d4884c439fd1e59e3a57ca5b0d79c1f65e6c0"
+    },
+    {
+      "path": "scripts/local-preview.mjs",
+      "sha256": "1d8c36cc38a38f05d5890b7f4ac8bb3dbc3b1ba49991d4d98a7ce414afe2285c"
+    },
+    {
+      "path": "scripts/optimize-runtime-assets.py",
+      "sha256": "9c10fc1986ba80e01b22a49cc54b3a9a2c147ff056a960c9087d0cc6d6dacd40"
+    },
+    {
+      "path": "tests/audio131.test.mjs",
+      "sha256": "2ec94da9a199232e502a6401d3a68d0724455fef94516a70e9867a061a299246"
+    },
+    {
+      "path": "tests/balance142.test.mjs",
+      "sha256": "c2c2453aadf360b09647aab9008594b34c562d9672417d718a20cb0610fcd0c9"
+    },
+    {
+      "path": "tests/bounded-search128.test.mjs",
+      "sha256": "244b48f609d4f23a876ae1a47eac115d7ff3c33038dffdcad7020a13b8819a2f"
+    },
+    {
+      "path": "tests/build138.test.mjs",
+      "sha256": "e36f61a6fdefbd0fa384bcfc0627006293c7d31a4fabb92c54681a3d976185c6"
+    },
+    {
+      "path": "tests/camera122.test.mjs",
+      "sha256": "461189e66c0ded2732bc897da14185c94813547b96a0948bdbf4c714f8d1ef9e"
+    },
+    {
+      "path": "tests/classes141.test.mjs",
+      "sha256": "32836a5aa5c9bc2f643a88221699a0a44d764a281cf9e3cff67960b520b9ae0a"
+    },
+    {
+      "path": "tests/combat-portal.test.mjs",
+      "sha256": "2e97d8f0f367f7979b48cec26d08815e31da4b83c20936bca085605e1c61cd26"
+    },
+    {
+      "path": "tests/combat140.test.mjs",
+      "sha256": "3fa0c45ec90208c7230e439a9b78997fd873e93f7896c89e5a85ce81710a5748"
+    },
+    {
+      "path": "tests/combat162.test.mjs",
+      "sha256": "ec62c2cca5cc0a16773ee8271cb8692f59947140d9930bab029cb0049e6dfc85"
+    },
+    {
+      "path": "tests/consistency117.test.mjs",
+      "sha256": "0b450b581016dabc42f268db7a7aafe668455b01b677426144dfb78b4fdca758"
+    },
+    {
+      "path": "tests/current-client.mjs",
+      "sha256": "ffd921e9b35ca438cad67cf399c57e8927479fe206f8cf1aa09f6d35acb211c1"
+    },
+    {
+      "path": "tests/duel-ui.test.mjs",
+      "sha256": "b54e99d1fafc722c6e841092c2f69634627836ae7739a6a1f642a8e614afd57a"
+    },
+    {
+      "path": "tests/dungeon.test.mjs",
+      "sha256": "baf77c4fd1c60abba783692f1c9b8864623cfa90cf9119305be5f588a7750df4"
+    },
+    {
+      "path": "tests/feedback158.test.mjs",
+      "sha256": "e99adef3f47a8b70cd615f9b5748beecb69139e0345530f2f5e7a17c3df57f53"
+    },
+    {
+      "path": "tests/game.test.mjs",
+      "sha256": "f2fda6dc1d67d0398ea5e2c2f2c81a6188105f3f5a7bb604aea35b144dca8939"
+    },
+    {
+      "path": "tests/graphics.test.mjs",
+      "sha256": "ea22b2f93d79d7a034449dc8c49b3e1c93902c9e6769fbf6e75074ee4cafdeb8"
+    },
+    {
+      "path": "tests/hero-frames130.json",
+      "sha256": "3723ca49d8d4ce14bc9a90d2fdb53101cffcb77939c06e39e55e043e03836751"
+    },
+    {
+      "path": "tests/landing150.test.mjs",
+      "sha256": "018d9f0fa264db1d3275ec4db6af7de6834610290a63cdcdc61a36bfcbf5df77"
+    },
+    {
+      "path": "tests/loading149.test.mjs",
+      "sha256": "6163ff198f8ffd2501c8b9811757d892f09bbb6ab778ae719688638fb769dc65"
+    },
+    {
+      "path": "tests/loadout-ui.test.mjs",
+      "sha256": "a9f38b4087609353aaa951bbcb18d12fc12957aa78957d3a0439fafc83978982"
+    },
+    {
+      "path": "tests/lobby130.test.mjs",
+      "sha256": "1caad0b04bcd9f983a4ee0cba5ec9680b9b63d8139696852d26a661aa83f6b19"
+    },
+    {
+      "path": "tests/lobby156.test.mjs",
+      "sha256": "d2d3d07873e79c480841998a4d8e4d120557afd9db6f60254029d7c816123d3e"
+    },
+    {
+      "path": "tests/look137.test.mjs",
+      "sha256": "d1bb89d97b7823fcf5f88c4c2081d473b821e068e463b951000b48d32f4d478f"
+    },
+    {
+      "path": "tests/manual/devices.html",
+      "sha256": "a8a73f5a4d49621cc0e3bc7c4700d7abd61f598ca9ac96953cdd3243fd408887"
+    },
+    {
+      "path": "tests/manual/scene.html",
+      "sha256": "04f16d0416067bf7607383c2df5abe194f2de5624bd34bf9e28e9ef3e5bdd041"
+    },
+    {
+      "path": "tests/minimum157.test.mjs",
+      "sha256": "c240410e8d6018914e63cc81dcd36d01228af3cf2750d7d980a2eb16f4206d3d"
+    },
+    {
+      "path": "tests/mobile-build-layout.test.mjs",
+      "sha256": "4d0ffd65f12bf7b5c54423afb02301aa1581b2f76f01afcfe5a013e80d9d7a74"
+    },
+    {
+      "path": "tests/mobile-run118.test.mjs",
+      "sha256": "a951e4d253d41b70bfa7b7f1c4234aed06864b4c18cd3a71bdf1a52a98334f90"
+    },
+    {
+      "path": "tests/mobile129.test.mjs",
+      "sha256": "24ad81f6585e64ef4f29645ca56a0f0574a5405f2a677012448b4d609d91d7b4"
+    },
+    {
+      "path": "tests/mobile148.test.mjs",
+      "sha256": "106fb69e148828ff982f4c6f408e1ec503f7cb38e593bdd27a8c37539dedd437"
+    },
+    {
+      "path": "tests/network127.test.mjs",
+      "sha256": "2b82ecd69b951c6e3b3a7de2be0ef50555e67644da24f4aff90b13b7e7cf4126"
+    },
+    {
+      "path": "tests/performance146.test.mjs",
+      "sha256": "7482098eca23821540b12d97acb88c67af3f0fe37691b900b8963bf0fe1a9b9a"
+    },
+    {
+      "path": "tests/polish160.test.mjs",
+      "sha256": "b01985c19a1cce45205abad25222caffd8a945f4874b673724c699b7a1c75842"
+    },
+    {
+      "path": "tests/ready-board.test.mjs",
+      "sha256": "c09989907a5a97b620ec54a69ae69b5eb1f3b3c6e3e8573cb2d451722bd68313"
+    },
+    {
+      "path": "tests/realtime159.test.mjs",
+      "sha256": "a0bca541da6ebc13c9d2a50539cb8e661feb6d05eb4f65e5fe986915ccd999d4"
+    },
+    {
+      "path": "tests/results-ui.test.mjs",
+      "sha256": "05f7e314a3bd1db60f7a8888063a663735d70a91038d8c1ac5a4147cb13604b5"
+    },
+    {
+      "path": "tests/rook154.test.mjs",
+      "sha256": "b43bb249f252f8ca0828cd79f5171ebc928528f0e690c0c0eac031805e07a91a"
+    },
+    {
+      "path": "tests/roster152.test.mjs",
+      "sha256": "c7f199566d309a114fec8af020e5e83e6f1c29f6785ea3324b0b6552d614331d"
+    },
+    {
+      "path": "tests/stability125.test.mjs",
+      "sha256": "8f3d2415e7719424c4a52d6c520d245988feed2382a1f2c64b9382ab78d72a35"
+    },
+    {
+      "path": "tests/start-fixture.mjs",
+      "sha256": "ae1f6655d7e05fe01da9da714b3f28af0555e96dfbb670bd2a337fae587a28ea"
+    },
+    {
+      "path": "tests/tablet161.test.mjs",
+      "sha256": "1523f9cb3698bbeebd51703e135107bb9b5d45a0f96ed53109920cb52041199a"
+    },
+    {
+      "path": "tests/task3.test.mjs",
+      "sha256": "59d90d98904b59f64ec0116ffe1cadca3bb72e1c61e6c1499e314eac44f8336d"
+    },
+    {
+      "path": "tests/turn143.test.mjs",
+      "sha256": "c02859dbd958d96c807e35bd6560777a5c319fa2c899b1e6a3a2e0421120e744"
+    },
+    {
+      "path": "tests/tutorial144.test.mjs",
+      "sha256": "38c208b84328e1833be3266088caeb55d6e09a09b433b021230c57d37fd976e8"
+    },
+    {
+      "path": "tests/tutorial147.test.mjs",
+      "sha256": "b1b7345f3c1694b4a2d28ce9c3c25e6b8eacd48fd7a639e23dfce7ded433484c"
+    },
+    {
+      "path": "tests/version132.test.mjs",
+      "sha256": "41677ea4bb3fffbe622a0682f68713f2156c2a009d7bab4309956c50ebd12580"
+    },
+    {
+      "path": "tests/version51.test.mjs",
+      "sha256": "71fb777c14d590a824e104278a9c284ae8418175d8b9d17b0e0c296b8ba2686c"
+    },
+    {
+      "path": "tests/version53.test.mjs",
+      "sha256": "35d21d7fd8f71f9223bdb71d4251e74f210ef27ce54aab4f778ebe0fbdf46c2c"
+    },
+    {
+      "path": "tests/wall-visual123.test.mjs",
+      "sha256": "f9b2d6c56679e46299e7d97a2f56cafa268386003d08917e5a55b102f3713231"
+    },
+    {
+      "path": "worker/game.js",
+      "sha256": "4dffbc474e17f6cd64df5eca326172cd591d17a0d08daebc809e136398de29c1"
+    },
+    {
+      "path": "worker/index.js",
+      "sha256": "ca6a9eb8a66ebd864f97298826ee2f4e2dd89cc931ef4b56c8c94e84cb408bd5"
+    }
+  ],
+  "documentation_changes": [
+    "README.md",
+    "docs/PUBLISHED-README-v162.md",
+    "PRESERVATION.json",
+    "SHA256SUMS.txt"
+  ]
+}

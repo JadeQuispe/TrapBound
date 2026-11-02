@@ -1,0 +1,16 @@
+{
+  "name": "trapbound",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A real-time competitive maze-building party game for 2–8 browser players.",
+  "scripts": {
+    "start": "node scripts/build-worker.mjs && node scripts/local-preview.mjs",
+    "dev": "node scripts/local-preview.mjs",
+    "build": "node scripts/build-worker.mjs",
+    "test": "node scripts/build-worker.mjs && node --test --test-concurrency=1 tests/*.test.mjs"
+  },
+  "dependencies": {
+    "peerjs": "^1.5.5",
+    "ws": "^8.18.3"
+  }
+}

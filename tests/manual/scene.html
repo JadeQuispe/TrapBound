@@ -1,0 +1,8 @@
+<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><link rel="stylesheet" href="/v161/style-v51.css"></head><body><header class="topbar"><button data-how-open>How to Play</button></header><main id="app" class="shell"></main><div id="toast" class="toast"></div><script src="/app-v18.js"></script><script>
+const qaKind=new URLSearchParams(location.search).get('scene')||'run';
+const qaPlayer=(id,team,hero,weapon,x,y)=>({id,name:team?'Violet QA':'Amber QA',team,character:hero,weapon,x,y,hp:110,maxHp:120,hearts:3,connected:true,score:0,kills:0,deaths:0,pickups:0,facing:[1,0],lastSeen:Date.now()});
+state={code:'QATEST',me:'a',host:'a',phase:'run',floor:1,mazeSize:7,mazeHeight:7,players:[qaPlayer('a',0,'golem','greatsword',2,3),qaPlayer('b',1,'goblin','spear',4,3)],mazes:[{},{}],monsterHp:[{},{}],monsterTypes:[{},{}],monsterAI:[{},{}],trapTypes:[{},{}],lootTypes:[{},{}],decor:[{},{}],discovered:[{},{}],revealedTraps:[{},{}],deadline:Date.now()+300000,scores:[0,0],combatEvents:[],message:''};
+if(qaKind==='spectate'){state.players[0].escaped=true;state.players[0].spectating='b';state.players[1].x=0;state.players[1].y=0}
+if(qaKind==='realm'||qaKind==='duel'){state.arenaMaze={};state.pvpArena={id:'qa-arena',type:qaKind==='realm'?'monster':'rival',participants:qaKind==='realm'?['a']:['a','b'],until:Date.now()+55000,startedAt:Date.now(),monster:{id:'magma-golem',x:4,y:3,hp:98,maxHp:150}}}
+render();syncDeviceLayout();queueInteriorCamera();
+</script></body></html>

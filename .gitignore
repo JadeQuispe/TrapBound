@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.codex/
+*.log
+.DS_Store
+dungeon-jam-v*.tar.gz
+upload/
+generated_images/

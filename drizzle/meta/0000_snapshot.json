@@ -1,0 +1,37 @@
+{
+  "id": "00000000-0000-4000-8000-000000000001",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "version": "7",
+  "dialect": "sqlite",
+  "tables": {
+    "main.rooms": {
+      "name": "rooms",
+      "schema": "",
+      "columns": {
+        "code": { "name": "code", "type": "text", "primaryKey": true, "notNull": true, "autoincrement": false, "default": null },
+        "host_id": { "name": "host_id", "type": "text", "primaryKey": false, "notNull": true, "autoincrement": false, "default": null },
+        "state": { "name": "state", "type": "text", "primaryKey": false, "notNull": false, "autoincrement": false, "default": null },
+        "revision": { "name": "revision", "type": "integer", "primaryKey": false, "notNull": true, "autoincrement": false, "default": "0" },
+        "host_seen": { "name": "host_seen", "type": "integer", "primaryKey": false, "notNull": true, "autoincrement": false, "default": null },
+        "created_at": { "name": "created_at", "type": "integer", "primaryKey": false, "notNull": true, "autoincrement": false, "default": null }
+      },
+      "indexes": {}, "foreignKeys": {}, "compositePrimaryKeys": {}, "uniqueConstraints": {}, "checkConstraints": {}
+    },
+    "main.actions": {
+      "name": "actions",
+      "schema": "",
+      "columns": {
+        "id": { "name": "id", "type": "integer", "primaryKey": true, "notNull": true, "autoincrement": true, "default": null },
+        "code": { "name": "code", "type": "text", "primaryKey": false, "notNull": true, "autoincrement": false, "default": null },
+        "player_id": { "name": "player_id", "type": "text", "primaryKey": false, "notNull": true, "autoincrement": false, "default": null },
+        "body": { "name": "body", "type": "text", "primaryKey": false, "notNull": true, "autoincrement": false, "default": null },
+        "created_at": { "name": "created_at", "type": "integer", "primaryKey": false, "notNull": true, "autoincrement": false, "default": null }
+      },
+      "indexes": {
+        "actions_code_id_idx": { "name": "actions_code_id_idx", "columns": [ { "expression": "code", "isExpression": false, "asc": true, "nulls": "last" }, { "expression": "id", "isExpression": false, "asc": true, "nulls": "last" } ], "isUnique": false, "where": null, "concurrently": false, "method": "btree", "with": {} }
+      },
+      "foreignKeys": {}, "compositePrimaryKeys": {}, "uniqueConstraints": {}, "checkConstraints": {}
+    }
+  },
+  "enums": {}, "views": {}, "_meta": { "schemas": {}, "tables": {}, "columns": {} }
+}
